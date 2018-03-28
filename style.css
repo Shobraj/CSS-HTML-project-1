@@ -1,0 +1,147 @@
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: Arial, Helvetice, sans-serif;
+    font-size: 16px;
+    line-height:1.6em;
+    margin: 0;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    overflow:hidden;
+}
+
+#loginsignup{
+    float: right;   
+}
+
+#loginsignup ul{
+    padding:0;
+    list-style: none;
+    min-height: 10px;
+}   
+
+#loginsignup li{
+    display: inline;
+    position: -ms-page
+}
+#loginsignup a{
+    color: rgb(236, 238, 241);
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#main-header{
+    background-color: #0E2646;
+    height: 50px;
+    color:#fff;
+}
+
+#main-header select{
+    color: rgb(236, 238, 241);
+    background: transparent;
+    padding: 5px 10px;
+    margin: 10px 0 0 0;
+}
+
+#navbar{
+    padding: 0.8em;
+    background-color: rgb(247, 243, 243);
+    min-height: 60px;
+    color:#0E2646;  
+}
+
+#navbar ul{
+    padding:0;
+    list-style: none;
+    min-height: 10px;
+}   
+
+#navbar li{
+    display: inline;
+    position: -ms-page
+}
+
+#navbar a{
+    color: #0E2646;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar a:hover{
+    background-color: #95a5a6;
+    padding: 10px;
+    border: 10px;;
+    margin: 10px;
+}
+
+#showcase{
+    background-image: url('SunriseHotel.jpg');
+    background-repeat: no-repeat;
+    background-position: center right;
+    min-height: 800px;
+    text-align: left ;
+    
+}
+
+#bookroom{
+    font-size: 20px;
+    color: #0E2646;
+    border-color: #0E2646;
+    font-weight: bolder;
+    padding: 20px 60px;
+    background-color: transparent;
+    position: absolute;
+    right: 130px;
+    top: 280px;
+}
+
+@media (max-width: 600px){
+    #showcase h3{
+        bottom: 50px;
+    }
+    #bookroo{
+        top:10px;
+    }
+}
+
+#main{
+    font: oblique;
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    font: oblique;
+    float: right;
+    width: 30%;
+    background: #555;
+    color: #fff;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
